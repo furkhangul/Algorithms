@@ -18,7 +18,7 @@ class Program
 
     static double MaclaurinSeries(double x, int N)
     {
-        double sum = 1.0; // Başlangıç değeri e^0 = 1
+        double sum = 1.0; 
 
         for (int i = 1; i <= N; i++)
         {
